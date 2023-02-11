@@ -2,8 +2,12 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
+<<<<<<< HEAD
 
 
+=======
+   
+>>>>>>> b5fb7b34add2a75a4beb84a85a82cbac068eb617
 class LinkedList:
     def __init__(self, value):
         new_node = Node(value)
@@ -11,7 +15,11 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> b5fb7b34add2a75a4beb84a85a82cbac068eb617
 my_linked_list = LinkedList(4)
 
 print('Head:', my_linked_list.head.value)
@@ -27,3 +35,8 @@ print('Length:', my_linked_list.length)
     Length: 1
     
 """
+<<<<<<< HEAD
+=======
+
+                                                                                                                    
+>>>>>>> b5fb7b34add2a75a4beb84a85a82cbac068eb617
